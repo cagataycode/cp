@@ -63,7 +63,7 @@ model Neighbourhood {
     name  String @unique
     posts Post[]
 
-    creatorId   String?
+    // creatorId   String?
     // Creator     User?          @relation("CreatedBy", fields: [creatorId], references: [id])
     subscribers Subscription[]
 
